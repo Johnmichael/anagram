@@ -1,15 +1,11 @@
 # anagram
 
-This is the week four code review for the "Intro to Programming" project for Epicodus students.
-
+This is the code review for Week 1 Ruby students.
 
 ## Getting Started
 
 Two words are anagrams if they contain the exact same letters in a different order. For example, "ruby" and "bury" are anagrams because they contain the same letters.
 
-This project will either be available for download immediately, or will be available on Github Pages.
-
-After downloading, drag and drop "index.html" onto an empty Google Chrome tab.
 
 ### Prerequisites
 
