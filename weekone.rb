@@ -11,10 +11,19 @@ def anagrams?(str1, str2)
   end
 end
 
-# testing space removal
-def removespace!(word)
-  word.delete(' ')
+
+def palindrome?(str1, str2)
+  if (str1.delete(' ').downcase == str2.delete(' ').downcase.reverse) then
+    return "these words are palindromes"
+  else return "these words are not palindromes"
+  end
 end
+
+
+# testing space removal
+# def removespace!(word)
+#   word.delete(' ')
+# end
 
 
 
