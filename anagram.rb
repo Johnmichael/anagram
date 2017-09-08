@@ -5,9 +5,11 @@
 # John Michael - github.com/Johnmichael
 
 def anagrams?(str1, str2)
-  str1.delete(' ').downcase.chars.sort == str2.delete(' ').downcase.chars.sort
+  if (str1.delete(' ').downcase.chars.sort == str2.delete(' ').downcase.chars.sort) then
+    return "these words are anagrams"
+    else return "these words are not anagrams"
+  end
 end
-
 
 # testing space removal
 def removespace!(word)
