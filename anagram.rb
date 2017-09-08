@@ -1,7 +1,13 @@
 #!/usr/bin/env ruby
 
 def anagrams?(str1, str2)
-  str1.downcase.chars.sort == str2.downcase.chars.sort
+  str1.delete(' ').downcase.chars.sort == str2.delete(' ').downcase.chars.sort
+end
+
+
+# testing space removal
+def removespace!(word)
+  word.delete(' ')
 end
 
 # str1 = "dog"
@@ -16,13 +22,13 @@ end
 #str2 = "moonstarer"
 # => true
 
+#str1 = "astronomer"
+#str2 = "moonstarer"
+# => true
+
+
 ## BUGS
 
 # str1 = "astronomer!"
 # str2 = "moonstarer"
-# => false
-
-
-#str1 = "astronomer"
-#str2 = "moon starer"
 # => false
