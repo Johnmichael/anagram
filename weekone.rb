@@ -15,7 +15,7 @@ end
 def palindrome?(str1, str2)
   if (str1.delete(' ').downcase == str2.delete(' ').downcase.reverse) then
     return "these words are palindromes"
-  else return "these words are not palindromes"
+    else return "these words are not palindromes"
   end
 end
 
