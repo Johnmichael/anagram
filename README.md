@@ -42,7 +42,7 @@ If you can not view this, or are on a mobile browser, I would suggest you accomm
 
 ## Author
 
-- **John Parsons** - [Github](https://github.com/Johnmichael/)
+- **John Michael** - [Github](https://github.com/Johnmichael/)
 
 ## License
 
