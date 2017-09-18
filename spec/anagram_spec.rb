@@ -1,5 +1,5 @@
 require('anagram')
-
+require('rspec')
 
 describe('Anagram') do
   describe('#words') do

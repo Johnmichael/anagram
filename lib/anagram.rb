@@ -35,11 +35,10 @@ class Anagram
     end
   end
 
-# begin individual tests for spec
+  # begin individual tests for spec
 
   def words?(str1, str2)
     if str1.scan(/[aeoui]/).count != 0 && str2.scan(/[aeoui]/).count != 0
-      return true
     else
       puts ('one or more inputs was not a word')
     end
