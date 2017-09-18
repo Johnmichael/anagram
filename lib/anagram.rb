@@ -33,8 +33,9 @@ class Anagram
     else
       puts ('these words are antigrams')
     end
-
   end
+
+# begin individual tests for spec
 
   def words?(str1, str2)
     if str1.scan(/[aeoui]/).count != 0 && str2.scan(/[aeoui]/).count != 0
