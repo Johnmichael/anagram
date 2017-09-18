@@ -29,5 +29,8 @@ describe('Anagram') do
     it('checks if the two words are antigrams') do
       expect(antigrams?('sugar', 'honey')).to eq(true)
     end
+    it('checks if the two words are antigrams, regardless of spacing') do
+      expect(antigrams?('su g a r', 'h o n ey')).to eq(true)
+    end
   end
 end
